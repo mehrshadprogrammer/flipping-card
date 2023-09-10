@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:sght@300;400;500;600&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(27, 29, 29);
+}
+section{
+    margin-top: 500px;
+    position: relative;
+    min-width: 100vh;
+    width: 100%;
+    background: #121321;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: .9;
+}
+section::before{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(-150px, -100px);
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+}
+section::after{
+    content: "";
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+    transform: translate(150px, 100px);
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+}
+.container{
+    position: relative;
+    height: 225px;
+    width: 375px;
+    z-index: 100;
+}
+.container .card{
+    height: 100%;
+    width: 100%;
+    padding: 25px;
+    border-radius: 25px;
+    backdrop-filter: blur(25px);
+    background: rgba(247, 239, 239, .05);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 1) ;
+    border: 1px solid rgba(255, 255, 255, .1);
+    opacity: .9;
+}
+.front-face header,
+.front-face .logo{
+    display: flex;
+}
+.front-face .logo img{
+    width: 48px;
+    margin-right: 10px;
+    background-color: #f3f5f5;
+}
+.front-face header,
+.front-face .chip{
+    justify-content: space-between;
+}
+.front-face .chip{
+    width: 45px;
+    height: 45px;
+}
+.front-face .card-details{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;    
+}
+h6{
+    font-size: 10px;
+    font-weight: 400;
+}
+h5.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h4.name{
+    margin-top: 15px;
+}
+.card.back-face{
+    border: none;
+    padding: 15px 25px 25px 25px;
+}
+.card.back-face h6{
+    font-size: 8px;
+}
+.card.front-face .magentic-strip{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #000;
+}
+.card.front-face .signature{
+    margin-top: 80px;
+    height: 40px;
+    width: 85px;
+}    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
